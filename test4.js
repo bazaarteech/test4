@@ -56,8 +56,13 @@ function applyTranslations(lang) {
                 "duration3": "3_months",
                 "duration4": "4_months",
                 "duration6": "6_months",
-                "duration3": "3_month",
-                "duration12": "12_months"
+                "duration12": "12_months",
+                "duration7": "7_month",
+                "duration8": "8_months",
+                "duration9": "9_months",
+                "duration10": "10_months",
+                "duration11": "11_months",
+                "duration13": "13_months"
             };
             for (const [id, key] of Object.entries(durations)) {
                 updateTextContent(id, texts.duration[key]);
