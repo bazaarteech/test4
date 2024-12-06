@@ -56,6 +56,7 @@ function applyTranslations(lang) {
                 "duration3": "3_months",
                 "duration4": "4_months",
                 "duration6": "6_months",
+                "duration3": "3_month",
                 "duration12": "12_months"
             };
             for (const [id, key] of Object.entries(durations)) {
