@@ -1,4 +1,4 @@
-const translationsUrl = "https://raw.githubusercontent.com/bazaarteech/test1/main/test1.json"; // رابط ملف JSON الصحيح
+const translationsUrl = "https://raw.githubusercontent.com/bazaarteech/test5/main/test5.json"; // رابط ملف JSON الصحيح
 
 fetch("https://ipinfo.io/json?token=7026faa1150bfd")
     .then(response => response.json())
